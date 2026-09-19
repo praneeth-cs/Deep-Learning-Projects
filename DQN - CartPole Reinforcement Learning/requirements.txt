@@ -1,0 +1,6 @@
+torch
+numpy
+pandas
+matplotlib
+gymnasium[classic-control]
+jupyter
