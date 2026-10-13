@@ -1,0 +1,11 @@
+torch
+torchvision
+timm==1.0.30
+numpy
+pandas
+matplotlib
+Pillow
+scikit-learn
+huggingface_hub
+safetensors
+jupyter
