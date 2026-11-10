@@ -1,146 +1,99 @@
-<div align="center">
+<h1 align="center">Deep Learning Projects</h1>
 
-# Deep Learning Projects
+<p align="center">
+  24 deep learning projects, from basic neural networks to transformers, generative models, and reinforcement learning.
+</p>
 
-### A portfolio of deep learning projects exploring neural networks, modern architectures, experimentation, and practical applications.
-
-![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge\&logo=python)
-![Deep Learning](https://img.shields.io/badge/Deep-Learning-orange?style=for-the-badge)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-FF6F00?style=for-the-badge\&logo=tensorflow)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge\&logo=pytorch)
-![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?style=for-the-badge\&logo=jupyter)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
-
-</div>
-
----
-
-## 📖 About
-
-Welcome to my **Deep Learning Projects** repository.
-
-This repository serves as a centralized collection of deep learning projects focused on the practical implementation, experimentation, and evaluation of neural networks and modern deep learning architectures.
-
-The projects are intended to progress from foundational neural networks to more specialized architectures used in areas such as computer vision, sequence modeling, and natural language processing.
-
-Each project explores the end-to-end deep learning workflow, including data preparation, architecture design, model training, validation, evaluation, and analysis of results.
-
-The goal of this repository is to document my continued development in deep learning while maintaining a structured portfolio of practical implementations and experiments.
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white" alt="TensorFlow">
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white" alt="PyTorch">
+  <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white" alt="Jupyter">
+  <img src="https://img.shields.io/badge/License-MIT-green?style=flat" alt="MIT License">
+</p>
 
 ---
 
-## 📂 Repository Contents
+## Overview
 
-Each project is self-contained and may include:
+This repository contains the deep learning projects I completed while studying the field. Each project focuses on one architecture and applies it to a standard dataset, covering the full workflow from data preparation and model design to training, evaluation, and analysis of the results.
 
-* Jupyter notebooks and source code
-* Datasets or references to dataset sources
-* Data preprocessing and transformation
-* Neural network architecture design
-* Model training and validation
-* Hyperparameter experimentation
-* Training and validation curves
-* Model evaluation and visualizations
-* Results, observations, and limitations
-* Project-specific documentation
-* Dependency requirements
+The projects are grouped by area below. Each one is self-contained in its own folder, with a Jupyter notebook, a README describing the approach and results, and a `requirements.txt` file.
 
----
+## Contents
 
-## 🧠 Topics
+- [Neural Network Fundamentals](#neural-network-fundamentals)
+- [Computer Vision](#computer-vision)
+- [Sequence Models and NLP](#sequence-models-and-nlp)
+- [Generative Models](#generative-models)
+- [Graph Neural Networks and Reinforcement Learning](#graph-neural-networks-and-reinforcement-learning)
+- [Getting Started](#getting-started)
+- [License](#license)
 
-Projects may explore deep learning concepts and architectures including:
+## Neural Network Fundamentals
 
-* Artificial Neural Networks (ANN)
-* Multilayer Perceptrons (MLP)
-* Convolutional Neural Networks (CNN)
-* Recurrent Neural Networks (RNN)
-* Long Short-Term Memory Networks (LSTM)
-* Gated Recurrent Units (GRU)
-* Autoencoders
-* Transfer Learning
-* Embeddings
-* Attention Mechanisms
-* Transformers
+| Project | Dataset | Framework | Result |
+|---------|---------|-----------|--------|
+| [ANN Classification - Customer Churn Prediction](ANN%20Classification%20-%20Customer%20Churn%20Prediction) | Bank Customer Churn | TensorFlow | 86.8% accuracy, 0.869 ROC-AUC |
+| [ANN Regression - Medical Cost Prediction](ANN%20Regression%20-%20Medical%20Cost%20Prediction) | Medical Insurance Costs | TensorFlow | R² of 0.837 |
 
-Additional architectures and techniques will be introduced as the repository develops.
+## Computer Vision
 
----
+| Project | Dataset | Framework | Result |
+|---------|---------|-----------|--------|
+| [CNN Classification - Handwritten Digit Recognition](CNN%20Classification%20-%20Handwritten%20Digit%20Recognition) | MNIST | TensorFlow | 99.14% accuracy |
+| [CNN Classification - Fashion MNIST](CNN%20Classification%20-%20Fashion%20MNIST) | Fashion-MNIST | TensorFlow | 90.45% accuracy |
+| [CNN Classification - CIFAR-10 Image Classification](CNN%20Classification%20-%20CIFAR-10%20Image%20Classification) | CIFAR-10 | TensorFlow | 77.86% accuracy |
+| [Transfer Learning - MobileNetV2 Image Classification](Transfer%20Learning%20-%20MobileNetV2%20Image%20Classification) | CIFAR-10 | TensorFlow | 87.35% accuracy |
+| [ResNet - Food-101 Image Classification](ResNet%20-%20Food-101%20Image%20Classification) | Food-101 | PyTorch | 86.78% accuracy |
+| [ViT - CIFAR-100 Image Classification](ViT%20-%20CIFAR-100%20Image%20Classification) | CIFAR-100 | PyTorch | 91.92% accuracy |
+| [U-Net - Oxford-IIIT Pet Image Segmentation](U-Net%20-%20Oxford-IIIT%20Pet%20Image%20Segmentation) | Oxford-IIIT Pet | PyTorch | 74.63% mean IoU |
+| [YOLO - Pascal VOC Object Detection](YOLO%20-%20Pascal%20VOC%20Object%20Detection) | Pascal VOC | PyTorch | 84.47% mAP@0.50 |
 
-## 🎯 Purpose
+## Sequence Models and NLP
 
-This repository aims to:
+| Project | Dataset | Framework | Result |
+|---------|---------|-----------|--------|
+| [RNN - IMDb Sentiment Analysis](RNN%20-%20IMDb%20Sentiment%20Analysis) | IMDb Reviews | TensorFlow | 80.79% accuracy |
+| [LSTM - IMDb Sentiment Analysis](LSTM%20-%20IMDb%20Sentiment%20Analysis) | IMDb Reviews | TensorFlow | 87.08% accuracy |
+| [GRU - IMDb Sentiment Analysis](GRU%20-%20IMDb%20Sentiment%20Analysis) | IMDb Reviews | TensorFlow | 85.66% accuracy |
+| [Attention - AG News Classification](Attention%20-%20AG%20News%20Classification) | AG News | TensorFlow | 90.93% accuracy |
+| [Transformer - 20 Newsgroups Classification](Transformer%20-%2020%20Newsgroups%20Classification) | 20 Newsgroups | TensorFlow | 62.41% accuracy |
+| [BERT - TREC-6 Question Classification](BERT%20-%20TREC-6%20Question%20Classification) | TREC-6 | TensorFlow / KerasHub | 96.80% accuracy |
+| [RoBERTa - BANKING77 Intent Classification](RoBERTa%20-%20BANKING77%20Intent%20Classification) | BANKING77 | PyTorch / Transformers | 85.65% accuracy |
 
-* Develop a practical understanding of deep learning fundamentals.
-* Implement neural network architectures from foundational to more advanced models.
-* Explore how architecture, optimization, and hyperparameter choices affect model performance.
-* Analyze training behavior, convergence, underfitting, and overfitting.
-* Apply deep learning techniques to real-world datasets and problems.
-* Document experiments, results, limitations, and observations.
-* Maintain a structured and evolving portfolio of deep learning work.
+## Generative Models
 
----
+| Project | Dataset | Framework | Result |
+|---------|---------|-----------|--------|
+| [Autoencoder - MNIST Image Reconstruction](Autoencoder%20-%20MNIST%20Image%20Reconstruction) | MNIST | TensorFlow | 0.0055 reconstruction MSE |
+| [Denoising Autoencoder - MNIST Image Reconstruction](Denoising%20Autoencoder%20-%20MNIST%20Image%20Reconstruction) | MNIST | TensorFlow | 0.0102 reconstruction MSE |
+| [Variational Autoencoder - MNIST Digit Generation](Variational%20Autoencoder%20-%20MNIST%20Digit%20Generation) | MNIST | TensorFlow | New digits sampled from a 2D latent space |
+| [DCGAN - CIFAR-10 Image Generation](DCGAN%20-%20CIFAR-10%20Image%20Generation) | CIFAR-10 | TensorFlow | 32×32 images generated over 100 epochs |
+| [WGAN-GP - CelebA Face Generation](WGAN-GP%20-%20CelebA%20Face%20Generation) | CelebA | TensorFlow | 64×64 synthetic faces |
 
-## 🛠 Technologies
+## Graph Neural Networks and Reinforcement Learning
 
-Projects may use one or more of the following technologies:
+| Project | Dataset | Framework | Result |
+|---------|---------|-----------|--------|
+| [GCN - Cora Node Classification](GCN%20-%20Cora%20Node%20Classification) | Cora | PyTorch | 78.70% accuracy |
+| [DQN - CartPole Reinforcement Learning](DQN%20-%20CartPole%20Reinforcement%20Learning) | CartPole-v1 | PyTorch / Gymnasium | 500 reward in 20 of 20 evaluation episodes |
 
-* Python
-* NumPy
-* Pandas
-* Matplotlib
-* Seaborn
-* Scikit-learn
-* TensorFlow
-* Keras
-* PyTorch
-* Jupyter Notebook
+Results are reported on each project's test set, except for the generative models, which are evaluated mainly by the quality of their outputs. Full metrics, training details, and analysis are in each project's README.
 
-Additional libraries and frameworks may be introduced when required by individual projects.
+## Getting Started
 
----
+**Requirements:** Python 3.10 or later and Jupyter. Several projects were trained on a GPU in Google Colab, which is recommended for the larger models.
 
-## 📊 Training & Evaluation
+Clone the repository:
 
-Model training and evaluation are documented within each project according to the task being addressed.
+```bash
+git clone https://github.com/praneeth-cs/Deep-Learning-Projects.git
+cd Deep-Learning-Projects
+```
 
-Projects may analyze:
+Each project lists its own dependencies in its `requirements.txt` file. Most datasets are downloaded automatically when the notebook runs.
 
-* Training and validation loss
-* Training and validation metrics
-* Learning curves and convergence behavior
-* Underfitting and overfitting
-* Model generalization
-* Hyperparameter and architecture changes
+## License
 
-Evaluation metrics are selected based on the problem. Classification projects may use metrics such as accuracy, precision, recall, F1 score, ROC-AUC, and confusion matrices, while regression projects may use MAE, MSE, RMSE, and R².
-
-Projects involving computer vision, sequence modeling, natural language processing, or other specialized tasks may use additional task-specific evaluation methods.
-
----
-
-## 📜 License
-
-This repository is licensed under the **MIT License**.
-
-You are welcome to use, modify, and build upon the code in accordance with the license terms.
-
----
-
-## 📝 Notes
-
-* Projects are added and refined as new deep learning concepts and architectures are explored.
-* Individual project directories contain documentation specific to their implementation, training process, evaluation, and results.
-* Some datasets and trained model files may not be included due to licensing or file-size limitations.
-* Dataset sources are referenced within individual projects where applicable.
-* Results may vary depending on hardware, library versions, random initialization, and training configuration.
-
----
-
-<div align="center">
-
-**Deep Learning Projects**
-
-*Practical implementations, experiments, and exploration of deep learning.*
-
-</div>
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
